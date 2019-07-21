@@ -33,6 +33,7 @@ fout = open(outfile, "w+")
 
 We go line by line in the infile and see if any of the words from delete_list occur. If it does, we replace it with whitespace in the outfile.
 
+
 for line in fin:
     for word in delete_list:
         line = line.replace(word, "")
