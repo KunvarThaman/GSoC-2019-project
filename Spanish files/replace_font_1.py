@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 infile = "output_messy.txt"
-outfile = "output_partial.txt"
+outfile = "output_partial_!.txt"
 
 delete_list = ['</font>']
                
