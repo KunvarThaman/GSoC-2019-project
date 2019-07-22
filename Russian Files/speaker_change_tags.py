@@ -19,7 +19,7 @@ def speaker_change(filename, dash_match , turn_tag):
         f.write(s)
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-inf", "--input_file", type=str, help="Name of\
+parser.add_argument("-inf", "--input_file", type=str, help="Name of
                     input file")
 parser.add_argument("-t", "--timing", default=0, type=int, help="Option to decide whether\
                     to include timing info in output")
