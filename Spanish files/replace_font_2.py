@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-infile = "output_clean.txt"
-outfile = "output_final.txt"
+infile = "output_partial.txt"
+outfile = "turn_tagged.txt"
 
 delete_list = ['<font color="#00ffff">','<font color="#00ff00">', '<font color="#ffff00">']
                
