@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+#There has been an unsolved error when the replace_font_1,2, 3 are merged into one file. Until that is resolved, they're kept separate.
 infile = "output_partial_1.txt"
 outfile = "output_partial_2.txt"
 
