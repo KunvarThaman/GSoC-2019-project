@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
 # split up a paragraph into sentences using regex
+import re
 
 def splitParagraphIntoSentences(paragraph):
-    ''' break a paragraph into sentences
-        and return a list '''
-    import re
+	
     sentenceEnds = re.compile('[.!?]')
     sentenceList = sentenceEnds.split(paragraph)
     return sentenceList
