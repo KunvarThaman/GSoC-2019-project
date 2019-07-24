@@ -11,7 +11,7 @@ fin = open(args.input_file)
 fout = open(outfile, "w+")
 
 for line in f:
-		line = line.lower()
+	ine = line.decode('utf-8').lower()
 	fout.write(line)
 	
 fin.close()
