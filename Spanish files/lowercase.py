@@ -12,6 +12,7 @@ fout = open(outfile, "w+")
 
 for line in f:
 	ine = line.decode('utf-8').lower()
+	#decode('utf-8') as it's a non-English sentence.
 	fout.write(line)
 	
 fin.close()
